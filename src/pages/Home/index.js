@@ -113,14 +113,18 @@ const Home = () => {
                         <Grid item lg={3} md={3} xs={3} sm={3} align="center" />
                         <Grid item lg={3} md={3} xs={3} sm={3} align="center">
                             <ContactItem>
-                                <ContactLogo src={githubIcon} />
-                                <LogoTitle>Github</LogoTitle>
+                                <a href="https://github.com/lucasbarroos" target="blank">
+                                    <ContactLogo src={githubIcon} />
+                                </a>
+                                <LogoTitle href="https://github.com/lucasbarroos" target="blank">Github</LogoTitle>
                             </ContactItem>
                         </Grid>
                         <Grid item lg={3} md={3} xs={3} sm={3} align="center">
                             <ContactItem>
-                                <ContactLogo src={linkedinIcon} style={{marginBottom: 0}} />
-                                <LogoTitle>Linkedin</LogoTitle>
+                                <a href="https://www.linkedin.com/in/lucasbarrosdev/" target="blank">
+                                    <ContactLogo src={linkedinIcon} style={{ marginBottom: 0 }} />
+                                </a>
+                                <LogoTitle href="https://www.linkedin.com/in/lucasbarrosdev/" target="blank">Linkedin</LogoTitle>
                             </ContactItem>
                         </Grid>
                         <Grid item lg={3} md={3} xs={3} sm={3} align="center" />

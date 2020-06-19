@@ -255,6 +255,7 @@ export const ContactLogo = styled.img`
 
 export const LogoTitle = styled.a`
     color: white;
+    text-decoration: none;
     font-size: 1.1vw;
     font-weight: 600;
     cursor: pointer;
