@@ -155,6 +155,10 @@ export const AboutContainer = styled.div`
     min-height: 80vh;
     width: 100%;
     background-color: white;
+    @media only screen and (orientation: portrait) {
+        margin-top: -30vh;
+        min-height: 50vh;
+    }
 `;
 
 export const AboutTitle = styled.div`
@@ -172,27 +176,39 @@ export const AboutAnimation = styled.div`
     width: 45vw;
     position: absolute;
     top: 10vh;
-    left: 30vw;
+    left: 20vw;
+    @media only screen and (orientation: portrait) {
+        top: 20vh;
+        height: 15vh;
+        width: 70vw;
+    }
 `;
 
 export const AboutText = styled.span`
     width: 45vw;
-    font-size: 1.8vw;<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-
+    font-size: 1.8vw;    
     text-align: justify;
     position: absolute;
     top: 45vh;
     left: 30vw;
     color: #172F94;
     font-weight: 600;
+    @media only screen and (orientation: portrait) {
+        top: 40vh;
+    }
 `;
 
 export const SecondWave = styled.div`
     position: absolute;
-    top: -40px;
     top: -35vh;
     width: 100%;
     height: 10vh;
+    @media only screen and (orientation: portrait) {
+        top: 10vh;
+        margin-top: -18vh;
+        height: 10vh;
+        background-color: white;
+    }
 `;
 
 export const ContactContainer = styled.div`
@@ -200,6 +216,11 @@ export const ContactContainer = styled.div`
     position: relative;
     background-color: #4A64E9;
     min-height: 50vh;
+    @media only screen and (orientation: portrait) {
+        top: 10vh;
+        margin-top: 0px;
+        min-height: 30vh;
+    }
 `;
 
 export const ContactContent = styled.div`
@@ -207,6 +228,11 @@ export const ContactContent = styled.div`
     top: 40px;
     z-index: 1000;
     width: 100%;
+    @media only screen and (orientation: portrait) {
+        top: 0vh;
+        margin-top: 10vh;
+        min-height: 10vh;
+    }
 `;
 
 export const ContactItem = styled.div`
@@ -221,6 +247,10 @@ export const ContactLogo = styled.img`
     width: 6vw;
     margin-bottom: 10px;
     cursor: pointer;
+    @media only screen and (orientation: portrait) {   
+        height: 15vw;
+        width: 15vw;
+    }
 `;
 
 export const LogoTitle = styled.a`
@@ -228,6 +258,9 @@ export const LogoTitle = styled.a`
     font-size: 1.1vw;
     font-weight: 600;
     cursor: pointer;
+    @media only screen and (orientation: portrait) {   
+        display: none;
+    }
 `;
 
 export const ContactTitle = styled.div`

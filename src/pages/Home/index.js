@@ -110,20 +110,20 @@ const Home = () => {
                 <ContactContent id="contact">
                     <ContactTitle>Contact</ContactTitle>
                     <Grid container>
-                        <Grid item lg={3} />
-                        <Grid item lg={3} md={6} xs={12} sm={12} align="center">
+                        <Grid item lg={3} md={3} xs={3} sm={3} align="center" />
+                        <Grid item lg={3} md={3} xs={3} sm={3} align="center">
                             <ContactItem>
                                 <ContactLogo src={githubIcon} />
                                 <LogoTitle>Github</LogoTitle>
                             </ContactItem>
                         </Grid>
-                        <Grid item lg={3} md={6} xs={12} sm={12} align="center">
+                        <Grid item lg={3} md={3} xs={3} sm={3} align="center">
                             <ContactItem>
                                 <ContactLogo src={linkedinIcon} style={{marginBottom: 0}} />
                                 <LogoTitle>Linkedin</LogoTitle>
                             </ContactItem>
                         </Grid>
-                        <Grid item lg={3} />
+                        <Grid item lg={3} md={3} xs={3} sm={3} align="center" />
                     </Grid>
                 </ContactContent>
             </ContactContainer>
