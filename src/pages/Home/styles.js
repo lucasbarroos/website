@@ -71,6 +71,7 @@ export const ButtonBox = styled.div`
     width: 6%;
     top: -20px;
     height: 120vh;
+    z-index: 1000;
 `;
 
 export const AboutLink = styled.span`   
@@ -78,21 +79,17 @@ export const AboutLink = styled.span`
     color: white;
     transform: rotate(-90deg);
     margin-left: 1vw;
-    margin-top: -35vh;
+    margin-top: -45vh;
     margin-bottom: 15vh;
-    z-index: 1000;
     cursor: pointer;
-    opacity: 90%;
-    filter: blur(0.7px);
 `;
 
 export const ContactLink = styled.span`
     font-size: 2vw;
     color: white;
     transform: rotate(-90deg);
-    margin-top: 5vh;
+    margin-top: 15vh;
     margin-left: 0vw;
-    z-index: 2000;
     cursor: pointer;
 `;
 
@@ -109,7 +106,7 @@ export const AboutTitle = styled.div`
     color: #9BABF3;
     transform: rotate(-90deg);
     left: -10vw;
-    top: 25vh;
+    top: 30vh;
     font-weight: 600;
 `;
 
@@ -117,7 +114,7 @@ export const AboutAnimation = styled.div`
     height: 35vh;
     width: 45vw;
     position: absolute;
-    top: 5vh;
+    top: 10vh;
     left: 30vw;
 `;
 
@@ -127,7 +124,7 @@ export const AboutText = styled.span`
 
     text-align: justify;
     position: absolute;
-    top: 40vh;
+    top: 45vh;
     left: 30vw;
     color: #172F94;
     font-weight: 600;
@@ -145,7 +142,7 @@ export const ContactContainer = styled.div`
     margin-top: 25vh;
     position: relative;
     background-color: #4A64E9;
-    height: 40vh;
+    min-height: 50vh;
 `;
 
 export const ContactContent = styled.div`
