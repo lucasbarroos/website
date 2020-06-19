@@ -11,6 +11,7 @@ import {
     Subname,
     Description,
     Animation,
+    SecondAnimation,
     ButtonBox,
     AboutLink,
     ContactLink,
@@ -28,6 +29,7 @@ import {
 } from './styles';
 
 import animationDeveloper from '../../assets/animations/developer.json';
+import codeDeveloper from '../../assets/animations/code.json';
 import animationGirl from '../../assets/animations/girl.json';
 const githubIcon = 'https://github.githubassets.com/images/modules/logos_page/Octocat.png';
 const linkedinIcon = 'https://www.spiner.com.br/wp-content/uploads/2019/02/midias-sociais-linkedin-icon.png';
@@ -37,6 +39,15 @@ const Home = () => {
         loop: true,
         autoplay: true,
         animationData: animationDeveloper,
+        rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice'
+        }
+    });
+
+    const [secondDeveloperLottie] = useState({
+        loop: true,
+        autoplay: true,
+        animationData: codeDeveloper,
         rendererSettings: {
             preserveAspectRatio: 'xMidYMid slice'
         }
@@ -61,6 +72,9 @@ const Home = () => {
                     <Animation>
                         <Lottie options={developerLottie} isClickToPauseDisabled/>
                     </Animation>
+                    <SecondAnimation>
+                        <Lottie options={secondDeveloperLottie} isClickToPauseDisabled/>
+                    </SecondAnimation>
                     <ButtonBox>
                         <AboutLink>
                             <Link activeClass="active" to="about" spy={true} smooth="easeInOutQuint" offset={50} duration={1000}>

@@ -5,10 +5,20 @@ export const Container = styled.div`
     height: 65vh;
     background-color: #4A64E9;
     margin-bottom: 25vh;
+    @media only screen and (orientation: portrait) {
+        height: 80vh;
+    }
 `;
 
 export const Content = styled.div`
     position: relative;
+    @media only screen and (orientation: portrait) {
+        top: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 `;
 
 export const FirstWave = styled.div`
@@ -17,6 +27,11 @@ export const FirstWave = styled.div`
     height: 20vh;
     z-index: 500;
     bottom: -60vh;
+    @media only screen and (orientation: portrait) {
+        position: relative;
+        bottom: -30vh;
+        background-color: white;
+    }
 `;
 
 export const Name = styled.span`
@@ -29,6 +44,14 @@ export const Name = styled.span`
     color: #ffffff;
     margin-top: 20px;
     filter: blur(0.5px);
+    @media only screen and (orientation: portrait) {
+        font-size: 15vw;
+        position: relative;
+        margin-top: 0px;
+        left: 0px;
+        top: 18vh;
+        font-weight: 600;
+    }
 `;
 
 export const Subname = styled.span`
@@ -41,6 +64,14 @@ export const Subname = styled.span`
     color: #ffffff;
     margin-top: 20px;
     filter: blur(0.5px);
+    @media only screen and (orientation: portrait) {
+        font-size: 15vw;
+        position: relative;
+        margin-top: 0px;
+        left: 0px;
+        top: 17vh;
+        font-weight: 600;
+    }
 `;
 
 export const Description = styled.span`    
@@ -50,6 +81,12 @@ export const Description = styled.span`
     right: 15vw;
     font-size: 3vw;
     color: #9BABF3;
+    @media only screen and (orientation: portrait) {
+        position: relative;
+        left: 0px;
+        top: 18vh;
+        font-size: 4vw;
+    }
 `;
 
 export const Animation = styled.div`
@@ -59,6 +96,20 @@ export const Animation = styled.div`
     position: absolute;
     top: 0vh;
     right: 10vw;
+    @media only screen and (orientation: portrait) {
+        display: none;
+    }
+`;
+
+export const SecondAnimation = styled.div`
+    display: none;
+    @media only screen and (orientation: portrait) {
+        display: initial;
+        position: absolute;
+        top: -15vh;
+        height: 30vh;
+        width: 53vw;
+    }
 `;
 
 export const ButtonBox = styled.div`
@@ -82,6 +133,9 @@ export const AboutLink = styled.span`
     margin-top: -45vh;
     margin-bottom: 15vh;
     cursor: pointer;
+    @media only screen and (orientation: portrait) {
+        display: none;
+    }
 `;
 
 export const ContactLink = styled.span`
@@ -91,6 +145,9 @@ export const ContactLink = styled.span`
     margin-top: 15vh;
     margin-left: 0vw;
     cursor: pointer;
+    @media only screen and (orientation: portrait) {
+        display: none;
+    }
 `;
 
 export const AboutContainer = styled.div`
