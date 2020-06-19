@@ -43,7 +43,6 @@ export const Name = styled.span`
     font-weight: 500;
     color: #ffffff;
     margin-top: 20px;
-    filter: blur(0.5px);
     @media only screen and (orientation: portrait) {
         font-size: 15vw;
         position: relative;
@@ -63,7 +62,6 @@ export const Subname = styled.span`
     font-weight: 500;
     color: #ffffff;
     margin-top: 20px;
-    filter: blur(0.5px);
     @media only screen and (orientation: portrait) {
         font-size: 15vw;
         position: relative;
