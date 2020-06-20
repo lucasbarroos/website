@@ -88,11 +88,11 @@ export const Description = styled.span`
 `;
 
 export const Animation = styled.div`
-    height: 60vh;
-    width: 40vw;
+    height: 45vh;
+    width: 35vw;
     z-index: 1000;
     position: absolute;
-    top: 0vh;
+    top: 8vh;
     right: 10vw;
     @media only screen and (orientation: portrait) {
         display: none;

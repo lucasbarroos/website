@@ -35,14 +35,14 @@ const githubIcon = 'https://github.githubassets.com/images/modules/logos_page/Oc
 const linkedinIcon = 'https://www.spiner.com.br/wp-content/uploads/2019/02/midias-sociais-linkedin-icon.png';
 
 const Home = () => {
-    const [developerLottie] = useState({
-        loop: true,
-        autoplay: true,
-        animationData: animationDeveloper,
-        rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice'
-        }
-    });
+    // const [developerLottie] = useState({
+    //     loop: true,
+    //     autoplay: true,
+    //     animationData: animationDeveloper,
+    //     rendererSettings: {
+    //         preserveAspectRatio: 'xMidYMid slice'
+    //     }
+    // });
 
     const [secondDeveloperLottie] = useState({
         loop: true,
@@ -70,7 +70,7 @@ const Home = () => {
                     <Subname>Barros</Subname>
                     <Description>I'm Fullstack Developer</Description>        
                     <Animation>
-                        <Lottie options={developerLottie} isClickToPauseDisabled/>
+                        <Lottie options={secondDeveloperLottie} isClickToPauseDisabled/>
                     </Animation>
                     <SecondAnimation>
                         <Lottie options={secondDeveloperLottie} isClickToPauseDisabled/>
