@@ -8,7 +8,7 @@ My personal website.
 
 ## Preview
 
-![Home](https://imgur.com/9ZJ9uWF.jpeg)
+![Home](https://imgur.com/tDFLcYZ.jpeg)
 ![About](https://imgur.com/sxElZYV.jpeg)
 ![Contact](https://imgur.com/QAwyNX4.jpeg)
 
