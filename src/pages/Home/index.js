@@ -26,6 +26,7 @@ import {
     LogoTitle,
     ContactItem,
     ContactTitle,
+    UpButton,
 } from './styles';
 
 import animationDeveloper from '../../assets/animations/developer.json';

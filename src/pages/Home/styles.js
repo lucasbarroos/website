@@ -114,35 +114,28 @@ export const ButtonBox = styled.div`
     display: flex;
     justify-content: center;
     align-items: end;
-    flex-direction: column;
+    flex-direction: row;
     position: absolute;
-    left: -2%;
-    width: 6%;
-    top: -20px;
-    height: 120vh;
-    z-index: 1000;
+    z-index: 30000;
+    top: 1vh;
+    right: 10vw;
 `;
 
 export const AboutLink = styled.span`   
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: white;
-    transform: rotate(-90deg);
-    margin-left: 1vw;
-    margin-top: -45vh;
-    margin-bottom: 15vh;
     cursor: pointer;
+    margin-right: 30px;
     @media only screen and (orientation: portrait) {
         display: none;
     }
 `;
 
 export const ContactLink = styled.span`
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: white;
-    transform: rotate(-90deg);
-    margin-top: 15vh;
-    margin-left: 0vw;
     cursor: pointer;
+    margin-right: 30px;
     @media only screen and (orientation: portrait) {
         display: none;
     }
