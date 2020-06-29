@@ -26,25 +26,14 @@ import {
     LogoTitle,
     ContactItem,
     ContactTitle,
-    UpButton,
 } from './styles';
 
-import animationDeveloper from '../../assets/animations/developer.json';
 import codeDeveloper from '../../assets/animations/code.json';
 import animationGirl from '../../assets/animations/girl.json';
 const githubIcon = 'https://github.githubassets.com/images/modules/logos_page/Octocat.png';
 const linkedinIcon = 'https://www.spiner.com.br/wp-content/uploads/2019/02/midias-sociais-linkedin-icon.png';
 
 const Home = () => {
-    // const [developerLottie] = useState({
-    //     loop: true,
-    //     autoplay: true,
-    //     animationData: animationDeveloper,
-    //     rendererSettings: {
-    //         preserveAspectRatio: 'xMidYMid slice'
-    //     }
-    // });
-
     const [secondDeveloperLottie] = useState({
         loop: true,
         autoplay: true,
@@ -100,7 +89,9 @@ const Home = () => {
                 <AboutAnimation>
                     <Lottie options={girlLottie} isClickToPauseDisabled/>
                 </AboutAnimation>
-                <AboutText>Hello, I'm a Full Stack Developer with 6 years of experience. I work from project management to final delivery. Dedicated and I like challenges!</AboutText>
+                <AboutText>
+                    I'm a full-stack developer with 6 years of experience. I develop with the MERN stack (MongoDB, Express, React, NodeJS). I love studying and research technologies and every time I look for challenges to improve my skills. 
+                </AboutText>
             </AboutContainer>
             <ContactContainer>
                 <SecondWave>
